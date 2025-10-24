@@ -1,0 +1,125 @@
+# ===== COMMON (ALL PROJECTS) =====
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+.envrc
+*.pem
+*.key
+*.crt
+
+# IDE / editor settings
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ===== NODE.JS (Frontend / Backend JS services) =====
+node_modules/
+bower_components/
+dist/
+build/
+coverage/
+.cache/
+.next/
+.nuxt/
+out/
+*.tsbuildinfo
+
+# NPM / Yarn lock files (keep only one preferred)
+# Uncomment to ignore all lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===== PHP (for php-apache / Laravel / plain PHP) =====
+vendor/
+composer.lock
+composer.phar
+.phpunit.result.cache
+.cache/
+.idea/
+storage/
+bootstrap/cache/
+*.sql
+*.sqlite
+*.bak
+*.tmp
+
+# Ignore PHP session / upload folders (if used)
+session/
+uploads/
+tmp/
+*.zip
+
+# ===== JAVA (Spring Boot / Maven) =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+*.log
+
+# Maven specific
+.mvn/
+mvnw
+mvnw.cmd
+dependency-reduced-pom.xml
+
+# Gradle (if you ever add)
+.gradle/
+build/
+
+# Spring Boot config (optional)
+application-*.yml
+application-*.properties
+# If you want to include only base config, keep application.properties
+
+# ===== DOCKER / KUBERNETES =====
+*.pid
+docker-compose.override.yml
+*.bak
+*.old
+
+# ===== TEST / TEMP =====
+coverage-final.json
+test-output/
+reports/
+junit-report.xml
+*.coverage
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== MONOREPO (multi-project) =====
+# Ignore build folders in any project
+*/node_modules/
+*/target/
+*/vendor/
+*/dist/
+*/build/
+*/logs/
+
