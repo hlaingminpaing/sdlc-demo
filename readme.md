@@ -1,9 +1,3 @@
-Perfect 👍 — here’s a **complete and beginner-friendly `README.md`** for your `sdlc-demo` repo that explains **how to deploy and run Node.js, PHP, and Java (Spring Boot)** locally on **Ubuntu 24.04** without Docker.
-
-You can copy this directly to the root of your repo (`README.md`).
-
----
-
 # 🧩 SDLC Demo — Node.js + PHP + Java (Spring Boot) with MySQL
 
 This repository contains **three small web apps** — Node.js, PHP, and Java — each connected to its own MySQL database.
