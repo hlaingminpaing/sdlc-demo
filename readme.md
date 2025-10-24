@@ -223,12 +223,4 @@ Then test all:
 
 ---
 
-## 🧾 License
-
-Free to use for learning and POC purposes.
-Author: *Hlaing Min Paing*
-
----
-
-Would you like me to also generate a matching **`docker-compose.yml`** + short section at the bottom of this README so you can run all 3 apps + MySQL together with one command (`docker compose up`)?
 
