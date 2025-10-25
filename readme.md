@@ -128,13 +128,11 @@ Check DB connection → [http://localhost:3000/db](http://localhost:3000/db)
 Create `php-app/config.php`:
 
 ```php
-<?php
-return [
-  'DB_HOST' => 'localhost',
-  'DB_USER' => 'php_user',
-  'DB_PASS' => 'PhpPass123!',
-  'DB_NAME' => 'php_db'
-];
+#config.php
+$servername = "localhost";
+$username = "php_user";
+$password = "PhpPass123!";
+$dbname = "php_db";
 ```
 
 ### ▶️ Run (built-in PHP server)
